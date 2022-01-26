@@ -1,0 +1,138 @@
+body{
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p{
+  color: hsl(0, 0%, 100%);
+  font-family: Outfit;
+
+}
+
+hr{
+  background-color: hsl(215, 51%, 70%); height: 1px; border: 0;
+}
+
+.container{
+  height: 500px;
+  width: 250px;
+  background-color: hsl(215, 32%, 27%);
+
+  text-align: left;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px 10px hsl(216, 50%, 16%);
+}
+
+
+.body-desc{
+  color: hsl(215, 51%, 70%);
+  padding: 0 15px ;
+  margin: 10px;
+}
+
+.desc{
+  color: hsl(215, 51%, 70%);
+}
+
+.eqno:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.values{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.equilibrium-image{
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  margin-left: 25px;
+  border-radius: 1rem;
+
+}
+
+.image{
+  position: relative;
+  top: 0;
+}
+
+.eye-div{
+
+  height: 200px;
+  width: 200px;
+  margin-left: 25px;
+  background-color: hsl(178, 100%, 50%, 0.5);
+  position: absolute;
+  bottom: 327px;
+  text-align: center;
+  display: none;
+  top: 0;
+}
+
+.equilibrium-image
+{
+  display: block;
+}
+
+.eye-image
+{
+  margin-top: 80px;
+}
+
+.eth{
+  height: 20px;
+  width: 15px;
+}
+
+.price{
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 15px;
+  color: hsl(178, 100%, 50%);
+}
+
+.clock{
+  margin-left: auto;
+}
+
+.days-left
+{
+  color: hsl(215, 51%, 70%);
+  font-size: 15px;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+.creator{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+}
+
+.jules{
+  font-size: 15px;
+}
+
+
+.jules-image{
+  height: 20px;
+  width: 20px;
+  margin: 0 10px 0 20px;
+}
+
+span:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+
+equilibrium-image : hover{
+  background-image:image("images/icon-view.svg");
+}
